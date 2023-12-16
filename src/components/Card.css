@@ -1,0 +1,84 @@
+.card {
+  display: flex;
+  width: 12vw;
+  height: 15vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 3px;
+  color: black;
+  margin-right: 1px;
+  box-shadow: 1px 1px lightgray;
+}
+.big-card {
+  display: flex;
+  width: 45vw;
+  height: 20vh;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 6px;
+  color: black;
+  margin-right: 1px;
+  box-shadow: 1px 1px lightgray;
+}
+.temp {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+.temp-day {
+  color: black;
+  margin-right: 4px;
+}
+.temp-night {
+  color: grey;
+}
+
+.weatherContainer {
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: auto auto auto;
+  column-gap: 50px;
+  row-gap: 30px;
+  background-color: transparent;
+  height: 40vh;
+}
+
+.all-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.day {
+  font-size: larger;
+  font-weight: bold;
+  border-bottom: 1px solid lightgrey;
+}
+
+.temp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.general {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.details-title {
+  font-size: x-large;
+  font-weight: bold;
+  border-bottom: 1px solid lightgrey;
+}
+.big-image img{
+  width: 150px;
+  height: 150px;
+}
